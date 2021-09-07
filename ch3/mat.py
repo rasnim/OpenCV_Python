@@ -3,7 +3,7 @@ import numpy as np
 
 
 def matop_1():
-    img1 = cv.imread('cat.bmp', cv.IMREAD_GRAYSCALE)
+    img1 = cv.imread('source/cat.bmp', cv.IMREAD_GRAYSCALE)
 
     if img1 is None:
         print('Image load failed')
@@ -42,7 +42,7 @@ def matop_2():
 
 
 def matop_3():
-    img1 = cv.imread('cat.bmp')
+    img1 = cv.imread('source/cat.bmp')
 
     img2 = img1
     img3 = img1.copy()
@@ -57,7 +57,7 @@ def matop_3():
 
 
 def matop_4():
-    img1 = cv.imread('lenna.bmp', cv.IMREAD_GRAYSCALE)
+    img1 = cv.imread('source/lenna.bmp', cv.IMREAD_GRAYSCALE)
 
     img2 = img1[200:400, 200:400]
     img3 = img1[200:400, 200:400].copy()

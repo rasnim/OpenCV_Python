@@ -23,7 +23,7 @@ def getGrayHistImage(hist):
 
 
 def histogram_stretching():
-    src = cv2.imread("hawkes.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/hawkes.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")
@@ -43,7 +43,7 @@ def histogram_stretching():
 
 
 def histogram_equalization():
-    src = cv2.imread("hawkes.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/hawkes.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")

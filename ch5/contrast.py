@@ -3,7 +3,7 @@ import cv2
 
 
 def contrast1():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")
@@ -19,7 +19,7 @@ def contrast1():
 
 
 def contrast2():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")

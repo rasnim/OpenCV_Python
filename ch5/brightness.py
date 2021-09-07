@@ -3,7 +3,7 @@ import cv2
 
 
 def brightness1():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed")
@@ -18,7 +18,7 @@ def brightness1():
 
 
 def brightness2():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")
@@ -45,7 +45,7 @@ def saturated(value):
 
 
 def brightness3():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed!")
@@ -64,7 +64,7 @@ def brightness3():
 
 
 def brightness4():
-    src = cv2.imread("lenna.bmp", cv2.IMREAD_GRAYSCALE)
+    src = cv2.imread("source/lenna.bmp", cv2.IMREAD_GRAYSCALE)
 
     if src is None:
         print("Image load failed")
